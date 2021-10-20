@@ -1,0 +1,13 @@
+btn-primary:hover{
+    background-color: black;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 1000px rgb(136, 19, 190)}
+    to{box-shadow:1px 1px 1000px rgb(219, 23, 236)}
+}
